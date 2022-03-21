@@ -19,7 +19,7 @@ public:
     string getElement();
     void setElement(string);
 
-    void do_something();
+    void do_something()override;
     string toString();
     ~Derived2();
 };

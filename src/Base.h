@@ -21,7 +21,7 @@ public:
 
     string getTip();
     void setTip(string);
-    virtual void do_something()=0;
+    virtual void do_something();
     string toString();
     ~Base();
 

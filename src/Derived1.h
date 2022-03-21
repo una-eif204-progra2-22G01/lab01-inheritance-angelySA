@@ -22,7 +22,7 @@ public:
     string getObjet();
     void setObjet(string);
 
-    void do_something();
+    void do_something()override;
     string toString();
 
     ~Derived1();

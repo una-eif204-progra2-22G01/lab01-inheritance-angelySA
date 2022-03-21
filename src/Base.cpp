@@ -14,6 +14,8 @@ Base::~Base() {};
 string Base::getTip() {return tip; }
 void Base::setTip(string t) {this->tip=t;}
 
+void Base::do_something() {};
+
 string Base::toString() {
     stringstream s;
 
